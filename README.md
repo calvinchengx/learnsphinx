@@ -1,4 +1,4 @@
-learnsphinx
+Learn Sphinx
 ===========
 
 1.  mkvirtualenv --distribute --no-site-packages learnsphinx
@@ -37,3 +37,8 @@ Use sphinx_bootstrap_theme
 		html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
     More customization details [here](https://github.com/ryan-roemer/sphinx-bootstrap-theme)
+
+Generated Documentation
+===============
+
+The generated documentation can be found at [readthedocs.org](https://learn-sphinx.readthedocs.org/en/latest/)
