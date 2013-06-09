@@ -8,7 +8,10 @@ learnsphinx
 5.  pip install sphinx
 6.  sphinx-quickstart  # Create docs as root of our documentation
 7.  vim docs/source/conf.py and add in
+	```
     sys.path.insert(0, os.path.abspath('../..'))
+	sys.path.insert(0, os.path.abspath('../../example_project'))
+	```
 8.  sphinx-apidoc -o docs/source example\_project
 9.  cd docs
 10. make html
