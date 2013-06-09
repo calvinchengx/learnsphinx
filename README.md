@@ -25,3 +25,15 @@ learnsphinx
 10. make html
 
 11. open build/html/index.html 
+
+Use sphinx_bootstrap_theme
+===============
+
+1.  pip install sphinx\_bootstrap\_theme
+2.  vim docs/source/conf.py and add/edit
+
+        import sphinx_bootstrap_theme
+		html_theme = 'bootstrap'
+		html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+
+    More customization details [here](https://github.com/ryan-roemer/sphinx-bootstrap-theme)
