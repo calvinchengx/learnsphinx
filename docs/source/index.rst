@@ -9,7 +9,10 @@ Welcome to example_project's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
+
+    example_project 
+    example_project.another_module
 
 
 
